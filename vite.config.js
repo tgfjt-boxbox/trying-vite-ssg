@@ -1,4 +1,7 @@
 export default {
-  base: '/something',
+  base: '/trying-vite-ssg',
   root: '.',
+  build: {
+    outDir: 'docs'
+  }
 }
